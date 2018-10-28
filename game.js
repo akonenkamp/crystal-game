@@ -2,7 +2,7 @@ var randomNumber = "";
 var wins = 0;
 var losses = 0
 var counter = 0;
-var images = ["./assets/crystal_1.jpg", "./assets/crystal_2.jpg", "./assets/crystal_3.jpg", "./assets/crystal_4.jpg"]
+var images = ["assets/crystal_1.jpg", "assets/crystal_2.jpg", "assets/crystal_3.jpg", "assets/crystal_4.jpg"]
 
 function randomNumGenerator() {
     randomNumber = Math.floor(Math.random() * 9) + 1;
